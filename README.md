@@ -1,4 +1,4 @@
-# react-spa-project
+# react-recoil-project
 react18の環境構築
 
 # はじめに
