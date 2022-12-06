@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import { RecoilRoot, atom, selector, useRecoilState, useRecoilValue } from 'recoil';
-import { TopScreen } from './screen/TopScreen';
+import { RouterComponent } from './route'
 
 function App() {
   return (
     <RecoilRoot>
-      <TopScreen />
+      <RouterComponent />
     </RecoilRoot>
   );
 }
