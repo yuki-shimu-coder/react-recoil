@@ -21,7 +21,7 @@ export const TopScreen = () => {
     <>
       <h1>TopScreen</h1>
       <p>Stateの値：{text}</p>
-      <input type="text" onChange={onChange} />
+      <input type="text" onChange={onChange} value={text} />
       <br />
       <p>count：{count}</p>
       <button onClick={onClick}>count++</button>
